@@ -1,0 +1,260 @@
+@font-face {
+    font-family: "Lato Bold";
+    font-style: normal;
+    src: url("fonts/LatoBold.ttf");
+}
+@font-face {
+    font-family: "Lato Bold Italic";
+    font-style: italic;
+    src: url("fonts/LatoBoldItalic.ttf");
+}
+@font-face {
+    font-family: "Lato Italic";
+    font-style: italic;
+    src: url("fonts/LatoItalic.ttf");
+}
+@font-face {
+    font-family: "Lato Light";
+    font-style: normal;
+    src: url("fonts/LatoLight.ttf");
+}
+@font-face {
+    font-family: "Lato Light Italic";
+    font-style: italic;
+    src: url("fonts/LatoLightItalic.ttf");
+}
+@font-face {
+    font-family: "Lato Regular";
+    font-style: normal;
+    src: url("fonts/LatoRegular.ttf");
+}
+
+#container {
+	width: 1400px;
+    height: auto;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+#h1 {
+    width: 1400px;
+    height: 60px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+#h10 {padding: 10px 0 0 130px;}
+#h2 {padding: 25px 450px 0 0;}
+#h3 {
+    font-family: "Lato Regular";
+    font-style: normal;
+    font-weight: 400;
+    font-size: : 16px;
+    padding: 35px 0 0 0;
+}
+#h4 {
+    font-family: "Lato Regular";
+    font-style: normal;
+    font-weight: 400;
+    font-size: : 16px;
+    color: #248bff;
+    padding: 35px 130px 0 0;
+}
+
+#j0 {
+    height: 25px;
+    font-family: "Lato Regular";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    padding: 0 0 0 130px;
+}
+#j1 {
+    font-family: "Lato Regular";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 22px;
+    height: 60px;
+    background: #1A8CFF; 
+}
+
+.j2a {float: left; width: 160px; height: 40px; padding-top: 20px; margin-left: 300px; text-align: center;}
+.j2a:hover {background: #57A5F3;}
+#j2  {color: white; text-decoration: none;}
+
+.j3a {float: left; width: 160px; height: 40px; padding: 20px 0 0 0; text-align: center;}
+.j3a:hover {background: #57A5F3;}
+#j3  {color: white; text-decoration: none;}
+ 
+.j4a {float: left; width: 160px; height: 40px; padding: 20px 0 0 0; text-align: center;}
+.j4a:hover {background: #57A5F3;}
+#j4  {color: white; text-decoration: none;}
+
+.j5a {float: left; width: 160px; height: 40px; padding: 20px 0 0 0; text-align: center;}
+.j5a:hover {background: #57A5F3;}
+#j5  {color: white; text-decoration: none;}
+
+.j6a {float: left; width: 160px; height: 40px; padding: 20px 0 0 0; text-align: center;}
+.j6a:hover {background: #57A5F3;}
+#j6  {color: white; text-decoration: none;}
+
+#main {
+    background-image: url("img/Fone1.png");
+    width: 1400px;
+    height: 500px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+#m1 {
+    font-family: "Lato Bold"; 
+    font-style: normal; 
+    font-weight: 700; 
+    font-size: 38px; 
+    color: #d5d5d5;
+    padding: 90px 0 0 116px;
+}
+#m2 {
+    font-family: "Lato Regular"; 
+    font-style: normal; 
+    font-weight: 400; 
+    font-size: 21px; 
+    color: #ffffff;
+    padding: 0 0 0 116px;
+}
+#m3 {padding: 0 0 98px 116px;}
+
+#main2 {
+    width: 1400px;
+    height: 511px;
+    background-color: #ffffff;
+}
+#m21 {
+    font-family: "Lato Regular"; 
+    font-style: normal; 
+    font-weight: 400; 
+    font-size: 36px; 
+    color: #878787;
+    text-align: center;
+    padding-top: 46px;
+    padding-bottom: 51px;
+}
+#m21a {
+    width: 1400px;
+    height: 250px;
+}
+#m22 {float: left; width: 235px; height: 250px; padding: 0 0 0 117px; text-align: center;}
+#m22b {font-family: "Lato Bold"; font-style: normal; font-weight: 700; font-size: 22px; color: #696969; padding-top: 30px;}
+#m22c {font-family: "Lato Light"; font-style: normal; font-weight: 300; font-size: 18px; color: #a5a5a5; padding-top: 20px;}
+#m23 {float: left; width: 235px; height: 250px; text-align: center;}
+#m23b {font-family: "Lato Bold"; font-style: normal; font-weight: 700; font-size: 22px; color: #696969; padding-top: 30px;}
+#m23c {font-family: "Lato Light"; font-style: normal; font-weight: 300; font-size: 18px; color: #a5a5a5; padding-top: 20px;}
+#m24 {float: left; width: 235px; height: 250px; text-align: center;}
+#m24b {font-family: "Lato Bold"; font-style: normal; font-weight: 700; font-size: 22px; color: #696969; padding-top: 30px;}
+#m24c {font-family: "Lato Light"; font-style: normal; font-weight: 300; font-size: 18px; color: #a5a5a5; padding-top: 20px;}
+#m25 {float: left; width: 235px; height: 250px; text-align: center;}
+#m25b {font-family: "Lato Bold"; font-style: normal; font-weight: 700; font-size: 22px; color: #696969; padding-top: 30px;}
+#m25c {font-family: "Lato Light"; font-style: normal; font-weight: 300; font-size: 18px; color: #a5a5a5; padding-top: 20px;}
+#m26 {float: left; width: 235px; height: 250px; text-align: center;}
+#m26b {font-family: "Lato Bold"; font-style: normal; font-weight: 700; font-size: 22px; color: #696969; padding-top: 30px;}
+#m26c {font-family: "Lato Light"; font-style: normal; font-weight: 300; font-size: 18px; color: #a5a5a5; padding-top: 20px;}
+#m27 {clear: both; text-align: center; padding-top: 25px;}
+
+#main3 {
+    width: 1400px;
+    height: 400px;
+    background-image: url("img/Fone2.png");
+}
+#m30 {font-family: "Lato Regular"; font-style: normal; font-weight: 400; font-size: 36px; color: #696969; text-align: center; padding-top: 45px;}
+#m32 {float: left; width: 270px; height: 250px; text-align: center; padding: 50px 0 0 135px;}
+#m32b {font-family: "Lato Bold"; font-style: normal; font-weight: 700; font-size: 20px; color: #696969;}
+#m32c {font-family: "Lato Light"; font-style: normal; font-weight: 300; font-size: 16px; color: #9b9b9b; padding-top: 25px;}
+#m32d {font-family: "Lato Bold"; font-style: normal; font-weight: 700;}
+#m33 {float: left; padding-top: 80px;}
+#m34 {float: left; width: 250px; height: 250px; text-align: center; padding-top: 50px;}
+#m34b {font-family: "Lato Bold"; font-style: normal; font-weight: 700; font-size: 20px; color: #696969;}
+#m34c {font-family: "Lato Light"; font-style: normal; font-weight: 300; font-size: 16px; color: #9b9b9b; padding-top: 25px;}
+#m35 {float: left; padding-top: 80px;}
+#m36 {float: left; width: 270px; height: 250px; text-align: center; padding-top: 50px;}
+#m36b {font-family: "Lato Bold"; font-style: normal; font-weight: 700; font-size: 20px; color: #696969;}
+#m36c {font-family: "Lato Light"; font-style: normal; font-weight: 300; font-size: 16px; color: #9b9b9b; padding-top: 25px;}
+#m37 {float: left; padding-top: 80px;}
+#m38 {float: left; width: 270px; height: 250px; text-align: center; padding-top: 50px;}
+#m38b {font-family: "Lato Bold"; font-style: normal; font-weight: 700; font-size: 20px; color: #696969;}
+#m38c {font-family: "Lato Light"; font-style: normal; font-weight: 300; font-size: 16px; color: #9b9b9b; padding-top: 25px;}
+
+#main39 {
+    width: 1400px;
+    height: 450px;
+    background-color: #ffffff;
+}
+#m39a {font-family: "Lato Regular"; font-style: normal; font-weight: 400; font-size: 36px; color: #696969; text-align: center; padding-top: 50px;}
+#m39b {display: flex; flex-direction: row; justify-content: space-between;}
+#m39c {width: 50px; height: 60px; padding: 56px 0 0 156px;}
+#m39d {width: 170px; height: 80px; font-family: "Lato Bold"; font-style: normal; font-weight: 700; font-size: 20px; color: #a5a5a5; padding: 56px 0 0 0;}
+#m39e {width: 70; height: 60; padding: 56px 0 0 0;}
+#m39f {width: 190px; height: 80px; font-family: "Lato Bold"; font-style: normal; font-weight: 700; font-size: 20px; color: #a5a5a5; padding: 56px 30px 0 0;}
+#m39g {width: 61px; height: 67px; padding: 56px 0 0 0;}
+#m39h {width: 230px; height: 80px; font-family: "Lato Bold"; font-style: normal; font-weight: 700; font-size: 20px; color: #a5a5a5; padding: 56px 130px 0 0;}
+
+#m391 {
+    width: 1400px;
+    height: 560px;
+    background-color: #2d90ff;
+}
+#m391a { width: 280px; height: 483px; float: left; padding: 70px 0 0 113px;}
+#m391b { width: 910px; height: 300px; float: right;}
+#m391c {padding: 80px 0 0 5px; font-family: "Lato Regular"; font-style: normal; font-weight: 400; font-size: 36px; color: #ffffff;}
+#m391d {padding: 58px 0 0 0; font-family: "Lato Regular"; font-style: normal; font-weight: 400; font-size: 16px; color: #ffffff;}
+.form1 {float: left; font-family: "Lato Italic";  font-style: italic; font-weight: 300; font-size: 12px; color: #c2c1c1; padding: 0 0 0 20px; margin: 60px 30px 0 0; border-radius: 5px;}
+.form2 {float: left; font-family: "Lato Italic";  font-style: italic; font-weight: 300; font-size: 12px; color: #c2c1c1; padding: 0 0 0 20px; margin: 60px 30px 0 0; border-radius: 5px;}
+.form3 {float: left; font-family: "Lato Regular"; font-style: normal; font-weight: 400; font-size: 16px; color: #f95960; border-radius: 5px; background: #fbfbfb; margin: 60px 0 0 0;}
+
+#main4 {
+    width: 1400px;
+    height: 460px;
+    background-color: #ffffff;
+}
+#m41 {font-family: "Lato Regular"; font-style: normal; font-weight: 400; font-size: 36px; color: #696969; text-align: center; padding: 50px 0 0 0;}
+#m42 {font-family: "Lato Regular"; font-style: normal; font-weight: 400; font-size: 16px; color: #696969; text-align: center; padding: 40px 0 0 0;}
+#m43 {}
+#m43a {float: left; padding: 65px 0 0 148px;}
+#m43b {float: left; padding: 80px 0 0 20px; font-family: "Lato Regular"; font-style: normal; font-weight: 400; font-size: 16px; color: #696969;}
+#m43c {float: left; padding: 65px 0 0 330px;}
+#m43d {float: left; padding: 80px 300px 0 20px; font-family: "Lato Regular"; font-style: normal; font-weight: 400; font-size: 16px; color: #696969;}
+#m44 {clear: both;}
+#m44a {float: left; padding: 20px 0 0 150px;}
+#m44b {float: left; padding: 35px 0 0 20px; font-family: "Lato Regular"; font-style: normal; font-weight: 400; font-size: 16px; color: #696969;}
+#m44c {float: left; padding: 20px 0 0 60px;}
+#m44d {float: left; padding: 35px 0 0 25px; font-family: "Lato Regular"; font-style: normal; font-weight: 400; font-size: 16px; color: #696969;}
+#m45 {clear: both;}
+#m45a {padding: 10px 0 0 150px; float: left;}
+#m45b {padding: 25px 0 0 20px; float: left; font-family: "Lato Regular"; font-style: normal; font-weight: 400; font-size: 16px; color: #696969;}
+#m45c {padding: 10px 0 0 250px; float: left;}
+#m45d {padding: 25px 0 0 25px; float: left; font-family: "Lato Regular"; font-style: normal; font-weight: 400; font-size: 16px; color: #696969;}
+
+#main5 {
+    width: 1400px;
+    height: 300px;
+    background-color: #64819e;
+}
+#m51 {font-family: "Lato Regular"; font-style: normal; font-weight: 400; font-size: 36px; color: #ffffff; text-align: center; padding-top: 50px;}
+#m52 {font-family: "Lato Regular"; font-style: normal; font-weight: 400; font-size: 16px; color: #ffffff; text-align: center; padding-top: 36px;}
+#m53 {text-align: center; padding-top: 40px;}
+
+footer {
+    width: 1400px;
+    height: 170px;
+    background-color: #22252c;
+}
+
+footer {font-family: "Lato Regular"; font-style: normal; font-weight: 400; font-size: 20px;}
+#v1 {width: 112px; float: left; padding: 20px 0 0 150px;}
+#v2 {width: 112px; float: left; padding: 56px 0 0 45px;}
+#v3 {width: 81px; float: left; padding: 56px 0 0 110px;} 
+#v4 {width: 71px; float: left; padding: 56px 0 0 107px;}
+#v5 {width: 44px; float: left; padding: 56px 0 0 110px;}
+#v6 {width: 108px; float: left; padding: 56px 0 0 110px;}
+#v7 {clear: both; text-align: center; font-family: "Lato Regular"; font-style: normal; font-weight: 400; font-size: 16px; color: #acaeb1; padding: 40px 0 0 0;}
+
+#footer2{width: 1400px; height: 40px; background-color: #ffffff;}
